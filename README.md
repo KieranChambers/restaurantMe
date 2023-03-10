@@ -13,7 +13,7 @@ The idea for this project is to create a web application that allows users to re
 6. Build the project by running `'yarn build'` or `'npm run build'`.
 7. Install serve by running `'yarn global add serve'` or `'npm install -g serve'`.
 8. Run `'serve -s build'` to start the server.
-9. Open your browser and go to `'http://localhost:5000'`.
+9. Open your browser and go to `'http://localhost:3000'`.
 
 ## Info
 
