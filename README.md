@@ -7,7 +7,7 @@ The idea for this project is to create a web application that allows users to re
 1. Clone the repository.
 2. Create an application on [Google Cloud Platform](https://console.cloud.google.com/).
 3. Enable the [Places API](https://developers.google.com/places/web-service/intro) for your application.
-4. Visit the cors-anywhere [demo](https://cors-anywhere.herokuapp.com/corsdemo) and click the `Request temprary access to the demo server` button to unlock access to the demo. Note this will only last for 24 hours OR 50 requests. After 50 requests you'll get a 429 (Too Many Requests) error.
+4. Visit the cors-anywhere [demo](https://cors-anywhere.herokuapp.com/corsdemo) and click the `Request temprary access to the demo server` button to unlock access to the demo. Note this will only last for 24 hours / 50 requests per hour. You'll get a 429 (Too Many Requests) error if you hit the 50 per hour limit.
 5. Create a `.env` file in the root directory of the project and add your API key.
 
 6. Run `'yarn'` to install dependencies or `'npm install'` if you don't have yarn installed.
